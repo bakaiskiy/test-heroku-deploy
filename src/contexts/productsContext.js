@@ -3,7 +3,8 @@ import axios from "axios";
 
 export const productsContext = React.createContext();
 
-const API = "http://localhost:8000/data";
+// const API = "http://localhost:8000/data";
+const API = "https://makers-deploy-bakai.herokuapp.com/data";
 
 const INIT_STATE = {
   products: [],
